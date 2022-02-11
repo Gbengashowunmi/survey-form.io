@@ -25,7 +25,7 @@ header{
     line-height: 30px;
     margin-bottom: 0;
 }
-#url-box{
+#url-box, #url-box3, #url-box2 {
     height: 35px;
     width: 98%;
     border-radius:4px;
