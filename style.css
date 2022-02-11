@@ -25,7 +25,23 @@ header{
     line-height: 30px;
     margin-bottom: 0;
 }
-#url-box, #url-box3, #url-box2 {
+#url-box{
+    height: 35px;
+    width: 98%;
+    border-radius:4px;
+    border-style: none;
+    font-size: 16px;
+    padding-left: 10px;
+}
+#url-box2 {
+    height: 35px;
+    width: 98%;
+    border-radius:4px;
+    border-style: none;
+    font-size: 16px;
+    padding-left: 10px;
+}
+#url-box3{
     height: 35px;
     width: 98%;
     border-radius:4px;
