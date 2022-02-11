@@ -57,7 +57,9 @@ header{
     border-radius: 3px;
     margin-top: 40px;
     margin-bottom: 80px;
-
+}
+#submit-button:hover{
+    cursor:pointer
 }
 @media  (max-width:480px) {
     body{
