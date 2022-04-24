@@ -12,15 +12,15 @@
         <h2>
             freeCodeCamp Survey Form
         </h2>
-        <p>
+        <p id="description">
             Thank you for taking the time to help us improve the platform 
         </p>
     </header>
     <div class="box">
         <form action="submit">
-            <p> Name</p> <input id="url-box" type="text" placeholder="Enter your name">
-            <p>Email</p> <input id="url-box2" type="email" placeholder="Enter your Email">
-            <p>Age</p> <input id="url-box3" type="number" placeholder="Age" min="10" max="99">
+            <p> Name</p> <input id="name" type="text" placeholder="Enter your name">
+            <p>Email</p> <input id="email" type="email" placeholder="Enter your Email">
+            <p>Age</p> <input id="number" type="number" placeholder="Age" min="10" max="99">
             <p>Which option best describes your current role?</p>
              <select name="current role" id="current-role">
                  <option value="none" selected disabled>Select current role</option>
@@ -56,7 +56,7 @@
                  <input type="checkbox" name="Forums" value="Forums">   <label for="Forums">Forums</label> <br>
                  <input type="checkbox" name="Additional Courses" value="Additional Courses">   <label for="Additional Courses">Additional Courses</label> <br>
             <p>Any comments or suggestions?</p> <input id="comment" type="text" placeholder="Enter your comment here...">
-            <button id="submit-button">Submit</button>
+            <button id="submit">Submit</button>
         </form>
     </div>
     
